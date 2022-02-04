@@ -1,9 +1,13 @@
 import sys
 
-OUTPUT_PATH = 'files/5_word_dict.txt'
+OUTPUT_PATH = 'files/5_letter_dict.txt'
 
 def main(dict_path):
-    
+    """
+    Takes a file containing all words in the dictionary
+    and outputs a new file containing all words in the original
+    dictionary with 5 letters.
+    """
     five_word_dict = []
     
     with open(dict_path, 'r') as dictionary:
